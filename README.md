@@ -13,7 +13,7 @@ This is Assigment test creating Simple Appointment App Using Beego Framework.
 3. Extract Downloaded Project to "*cd yourgopath/src*"
 4. Please rename extracted project to **CicilAppointmentApp**
 4. Navigate to "*cd yourgopath/src/CicilAppointmentApp*"
-5. Simply type "bee run"
+5. Simply type this on your terminal "bee run" or "go run main.go"
 6. At this stage the application should have been running on your local machine
 
 # Feature
