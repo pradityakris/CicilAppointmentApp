@@ -11,6 +11,7 @@ This is Assigment test creating Simple Appointment App Using Beego Framework.
 1. Make sure instalation and Libary installed on your current machine
 2. Download this project
 3. Extract Downloaded Project to "*cd yourgopath/src*"
+4. Please rename extracted project to **CicilAppointmentApp**
 4. Navigate to "*cd yourgopath/src/CicilAppointmentApp*"
 5. Simply type "bee run"
 6. At this stage the application should have been running on your local machine
