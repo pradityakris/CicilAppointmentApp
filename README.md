@@ -33,7 +33,7 @@ This is Assigment test creating Simple Appointment App Using Beego Framework.
 
 # API testing
 - All the data retured are **JSON** type.
-- You can test the api via Postman, dont forget to provide the params
+- You can test the api via Postman, dont forget to provide the params for **POST**
 1. Testing Get All meetup schedule **GET** API hit "http://localhost:8080/api/getallschedule"
 2. Testing Get one meetup schedule **GET** API hit "http://localhost:8080/api/schedule/:id" please change **:id** to Appointment **Id**
 3. Testing Create Schedule **POST** API hit "http://localhost:8080/api/addschedule?title=Testing API Create Schedule&date=07/11/2018&time=11:34 PM&desc=Testtest&atten=Rama Widhiantito&loc=Jakarta" the paramaters are **title, date, time, desc, atten, loc**
