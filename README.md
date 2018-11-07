@@ -9,7 +9,7 @@ This is Assigment test creating Simple Appointment App Using Beego Framework.
 
 # Walkthrough
 1. Make sure instalation and Libary installed on your current machine
-2. Download this project
+2. Clone this project inside your "**GOPATH/src**"/ with "git clone https://github.com/ramawidhiantito/CicilAppointmentApp" or you can download this project
 3. Extract Downloaded Project to "*cd yourgopath/src*"
 4. Please rename extracted project to **CicilAppointmentApp**
 4. Navigate to "**cd yourgopath/src/CicilAppointmentApp**"
