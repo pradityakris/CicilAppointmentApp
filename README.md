@@ -33,8 +33,9 @@ This is Assigment test creating Simple Appointment App Using Beego Framework.
 
 # API testing
 - All the data retured are **JSON** type.
-1. Testing Get All meetup schedule API hit "http://localhost:8080/api/getallschedule"
-2. Testing Get one meetup schedule API hit "http://localhost:8080/api/schedule/:id" please change **:id** to Appointment **Id**
-3. Testing Create Schedule API hit "http://localhost:8080/api/addschedule?title=Testing API Create Schedule&date=07/11/2018&time=11:34 PM&desc=Testtest&atten=Rama Widhiantito&loc=Jakarta" the paramaters are **title, date, time, desc, atten, loc**
-4. Testing Update Schedule API hit "http://localhost:8080/api/updateschedule/6?title=Testing API Create Schedule&date=07/11/2018&time=11:34 PM&desc=Testtest&atten=Rama Widhiantito&loc=Jakarta" please dont forget to add id on the url **ex : http://localhost:8080/api/updateschedule/6**
-5. Testing Delete Schedule API hit "http://localhost:8080/api/deleteschedule/:id" please change **:id** to Appointment **Id**
+- You can test the api via Postman, dont forget to provide the params
+1. Testing Get All meetup schedule **GET** API hit "http://localhost:8080/api/getallschedule"
+2. Testing Get one meetup schedule **GET** API hit "http://localhost:8080/api/schedule/:id" please change **:id** to Appointment **Id**
+3. Testing Create Schedule **POST** API hit "http://localhost:8080/api/addschedule?title=Testing API Create Schedule&date=07/11/2018&time=11:34 PM&desc=Testtest&atten=Rama Widhiantito&loc=Jakarta" the paramaters are **title, date, time, desc, atten, loc**
+4. Testing Update Schedule **POST** API hit "http://localhost:8080/api/updateschedule/6?title=Testing API Create Schedule&date=07/11/2018&time=11:34 PM&desc=Testtest&atten=Rama Widhiantito&loc=Jakarta" please dont forget to add id on the url **ex : http://localhost:8080/api/updateschedule/6**
+5. Testing Delete Schedule **GET** API hit "http://localhost:8080/api/deleteschedule/:id" please change **:id** to Appointment **Id**
